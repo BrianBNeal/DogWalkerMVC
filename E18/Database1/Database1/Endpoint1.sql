@@ -1,0 +1,8 @@
+﻿CREATE ENDPOINT [Endpoint1]
+	AS HTTP
+	(
+		PATH = '/',
+		AUTHENTICATION = (INTEGRATED),
+		PORTS = (CLEAR)
+	)
+	FOR SOAP()
